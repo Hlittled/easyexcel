@@ -1,3 +1,7 @@
+# 简介
+老项目使用JDK6和旧版POI, 陈年老代码不可能去改动它, 新的导入导出需求想引用easyexcel, 又不想导致依赖冲突, 所以切出一个分支, 用jarjar对所引用的依赖做重命名操作, 并修改easyexcel源码的导包做一个定制版本.
+
+
 EasyExcel
 ======================
 [![Build Status](https://github.com/alibaba/easyexcel/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/alibaba/easyexcel/actions/workflows/ci.yml?query=branch%3Amaster)
