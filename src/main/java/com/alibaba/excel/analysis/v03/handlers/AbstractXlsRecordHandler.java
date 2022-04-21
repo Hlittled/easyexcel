@@ -1,6 +1,6 @@
 package com.alibaba.excel.analysis.v03.handlers;
 
-import org.apache.poi.hssf.record.Record;
+import customize.org.apache.poi.hssf.record.Record;
 
 import com.alibaba.excel.analysis.v03.XlsRecordHandler;
 import com.alibaba.excel.context.xls.XlsReadContext;

@@ -3,7 +3,7 @@ package com.alibaba.excel.write.handler;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.poi.ss.usermodel.IndexedColors;
+import customize.org.apache.poi.ss.usermodel.IndexedColors;
 
 import com.alibaba.excel.write.metadata.style.WriteCellStyle;
 import com.alibaba.excel.write.metadata.style.WriteFont;

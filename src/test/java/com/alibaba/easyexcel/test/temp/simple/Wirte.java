@@ -7,8 +7,8 @@ import java.util.Map;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import customize.org.slf4j.Logger;
+import customize.org.slf4j.LoggerFactory;
 
 import com.alibaba.easyexcel.test.core.large.LargeData;
 import com.alibaba.easyexcel.test.demo.write.DemoData;
@@ -19,7 +19,7 @@ import com.alibaba.excel.write.metadata.WriteSheet;
 import com.alibaba.excel.write.metadata.WriteTable;
 import com.alibaba.fastjson.JSON;
 
-import net.sf.cglib.beans.BeanMap;
+import customize.net.sf.cglib.beans.BeanMap;
 
 /**
  * 测试poi

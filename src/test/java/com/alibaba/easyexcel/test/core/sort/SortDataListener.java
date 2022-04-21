@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.Map;
 
 import org.junit.Assert;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import customize.org.slf4j.Logger;
+import customize.org.slf4j.LoggerFactory;
 
 import com.alibaba.easyexcel.test.core.simple.SimpleData;
 import com.alibaba.excel.context.AnalysisContext;

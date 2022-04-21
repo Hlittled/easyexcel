@@ -1,11 +1,11 @@
 package com.alibaba.easyexcel.test.demo.write;
 
-import org.apache.poi.ss.usermodel.Comment;
-import org.apache.poi.ss.usermodel.Drawing;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.xssf.usermodel.XSSFClientAnchor;
-import org.apache.poi.xssf.usermodel.XSSFRichTextString;
+import customize.org.apache.poi.ss.usermodel.Comment;
+import customize.org.apache.poi.ss.usermodel.Drawing;
+import customize.org.apache.poi.ss.usermodel.Row;
+import customize.org.apache.poi.ss.usermodel.Sheet;
+import customize.org.apache.poi.xssf.usermodel.XSSFClientAnchor;
+import customize.org.apache.poi.xssf.usermodel.XSSFRichTextString;
 
 import com.alibaba.excel.write.handler.AbstractRowWriteHandler;
 import com.alibaba.excel.write.metadata.holder.WriteSheetHolder;

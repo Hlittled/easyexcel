@@ -1,9 +1,9 @@
 package com.alibaba.excel.analysis.v03.handlers;
 
-import org.apache.poi.hssf.record.Record;
-import org.apache.poi.hssf.record.StringRecord;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import customize.org.apache.poi.hssf.record.Record;
+import customize.org.apache.poi.hssf.record.StringRecord;
+import customize.org.slf4j.Logger;
+import customize.org.slf4j.LoggerFactory;
 
 import com.alibaba.excel.analysis.v03.IgnorableXlsRecordHandler;
 import com.alibaba.excel.context.xls.XlsReadContext;

@@ -2,7 +2,7 @@ package com.alibaba.easyexcel.test.temp.simple;
 
 import java.util.Date;
 
-import org.apache.poi.ss.usermodel.FillPatternType;
+import customize.org.apache.poi.ss.usermodel.FillPatternType;
 
 import com.alibaba.excel.annotation.ExcelIgnore;
 import com.alibaba.excel.annotation.ExcelProperty;

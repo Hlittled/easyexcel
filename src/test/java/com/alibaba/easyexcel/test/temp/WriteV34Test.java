@@ -3,12 +3,12 @@ package com.alibaba.easyexcel.test.temp;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.poi.ss.usermodel.FillPatternType;
-import org.apache.poi.ss.usermodel.IndexedColors;
+import customize.org.apache.poi.ss.usermodel.FillPatternType;
+import customize.org.apache.poi.ss.usermodel.IndexedColors;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import customize.org.slf4j.Logger;
+import customize.org.slf4j.LoggerFactory;
 
 import com.alibaba.easyexcel.test.demo.write.DemoData;
 import com.alibaba.easyexcel.test.util.TestFileUtil;

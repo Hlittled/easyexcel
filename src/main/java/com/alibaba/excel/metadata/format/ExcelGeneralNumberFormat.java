@@ -10,7 +10,7 @@ import java.text.Format;
 import java.text.ParsePosition;
 import java.util.Locale;
 
-import org.apache.poi.ss.usermodel.DataFormatter;
+import customize.org.apache.poi.ss.usermodel.DataFormatter;
 
 /**
  * Written with reference to {@link org.apache.poi.ss.usermodel.ExcelGeneralNumberFormat }.
@@ -38,9 +38,9 @@ public class ExcelGeneralNumberFormat extends Format {
         } else {
             scientificFormat = new DecimalFormat("#", decimalSymbols);
         }
-        org.apache.poi.ss.usermodel.DataFormatter.setExcelStyleRoundingMode(scientificFormat);
+        customize.org.apache.poi.ss.usermodel.DataFormatter.setExcelStyleRoundingMode(scientificFormat);
         integerFormat = new DecimalFormat("#", decimalSymbols);
-        org.apache.poi.ss.usermodel.DataFormatter.setExcelStyleRoundingMode(integerFormat);
+        customize.org.apache.poi.ss.usermodel.DataFormatter.setExcelStyleRoundingMode(integerFormat);
         decimalFormat = new DecimalFormat("#.##########", decimalSymbols);
         DataFormatter.setExcelStyleRoundingMode(decimalFormat);
     }

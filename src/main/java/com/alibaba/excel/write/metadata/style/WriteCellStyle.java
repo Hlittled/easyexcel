@@ -1,12 +1,12 @@
 package com.alibaba.excel.write.metadata.style;
 
-import org.apache.poi.ss.usermodel.BorderStyle;
-import org.apache.poi.ss.usermodel.BuiltinFormats;
-import org.apache.poi.ss.usermodel.FillPatternType;
-import org.apache.poi.ss.usermodel.HorizontalAlignment;
-import org.apache.poi.ss.usermodel.IgnoredErrorType;
-import org.apache.poi.ss.usermodel.IndexedColors;
-import org.apache.poi.ss.usermodel.VerticalAlignment;
+import customize.org.apache.poi.ss.usermodel.BorderStyle;
+import customize.org.apache.poi.ss.usermodel.BuiltinFormats;
+import customize.org.apache.poi.ss.usermodel.FillPatternType;
+import customize.org.apache.poi.ss.usermodel.HorizontalAlignment;
+import customize.org.apache.poi.ss.usermodel.IgnoredErrorType;
+import customize.org.apache.poi.ss.usermodel.IndexedColors;
+import customize.org.apache.poi.ss.usermodel.VerticalAlignment;
 
 import com.alibaba.excel.metadata.property.FontProperty;
 import com.alibaba.excel.metadata.property.StyleProperty;

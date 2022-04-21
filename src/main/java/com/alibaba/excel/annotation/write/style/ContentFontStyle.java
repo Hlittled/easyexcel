@@ -6,10 +6,10 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import org.apache.poi.common.usermodel.fonts.FontCharset;
-import org.apache.poi.hssf.usermodel.HSSFPalette;
-import org.apache.poi.ss.usermodel.Font;
-import org.apache.poi.ss.usermodel.IndexedColors;
+import customize.org.apache.poi.common.usermodel.fonts.FontCharset;
+import customize.org.apache.poi.hssf.usermodel.HSSFPalette;
+import customize.org.apache.poi.ss.usermodel.Font;
+import customize.org.apache.poi.ss.usermodel.IndexedColors;
 
 /**
  * Custom content styles.

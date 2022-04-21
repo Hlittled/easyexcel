@@ -2,9 +2,9 @@ package com.alibaba.excel.cache.selector;
 
 import java.io.IOException;
 
-import org.apache.poi.openxml4j.opc.PackagePart;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import customize.org.apache.poi.openxml4j.opc.PackagePart;
+import customize.org.slf4j.Logger;
+import customize.org.slf4j.LoggerFactory;
 
 import com.alibaba.excel.cache.Ehcache;
 import com.alibaba.excel.cache.MapCache;

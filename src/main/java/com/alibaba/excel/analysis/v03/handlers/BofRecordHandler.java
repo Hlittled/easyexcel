@@ -3,9 +3,9 @@ package com.alibaba.excel.analysis.v03.handlers;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.poi.hssf.record.BOFRecord;
-import org.apache.poi.hssf.record.BoundSheetRecord;
-import org.apache.poi.hssf.record.Record;
+import customize.org.apache.poi.hssf.record.BOFRecord;
+import customize.org.apache.poi.hssf.record.BoundSheetRecord;
+import customize.org.apache.poi.hssf.record.Record;
 
 import com.alibaba.excel.context.xls.XlsReadContext;
 import com.alibaba.excel.exception.ExcelAnalysisStopException;

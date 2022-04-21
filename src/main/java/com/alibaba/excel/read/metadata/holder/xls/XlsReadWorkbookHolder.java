@@ -3,10 +3,10 @@ package com.alibaba.excel.read.metadata.holder.xls;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener;
-import org.apache.poi.hssf.record.BoundSheetRecord;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.poifs.filesystem.POIFSFileSystem;
+import customize.org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener;
+import customize.org.apache.poi.hssf.record.BoundSheetRecord;
+import customize.org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import customize.org.apache.poi.poifs.filesystem.POIFSFileSystem;
 
 import com.alibaba.excel.read.metadata.ReadWorkbook;
 import com.alibaba.excel.read.metadata.holder.ReadWorkbookHolder;

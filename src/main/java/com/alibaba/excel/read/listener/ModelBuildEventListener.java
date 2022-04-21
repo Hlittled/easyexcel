@@ -18,7 +18,7 @@ import com.alibaba.excel.read.metadata.holder.ReadHolder;
 import com.alibaba.excel.read.metadata.property.ExcelReadHeadProperty;
 import com.alibaba.excel.util.ConverterUtils;
 
-import net.sf.cglib.beans.BeanMap;
+import customize.net.sf.cglib.beans.BeanMap;
 
 /**
  * Convert to the object the user needs

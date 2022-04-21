@@ -1,6 +1,6 @@
 package com.alibaba.excel.write.style.row;
 
-import org.apache.poi.ss.usermodel.Row;
+import customize.org.apache.poi.ss.usermodel.Row;
 
 import com.alibaba.excel.event.NotRepeatExecutor;
 import com.alibaba.excel.write.handler.RowWriteHandler;

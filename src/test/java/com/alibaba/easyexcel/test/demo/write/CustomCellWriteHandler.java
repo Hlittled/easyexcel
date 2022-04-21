@@ -2,12 +2,12 @@ package com.alibaba.easyexcel.test.demo.write;
 
 import java.util.List;
 
-import org.apache.poi.common.usermodel.HyperlinkType;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CreationHelper;
-import org.apache.poi.ss.usermodel.Hyperlink;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import customize.org.apache.poi.common.usermodel.HyperlinkType;
+import customize.org.apache.poi.ss.usermodel.Cell;
+import customize.org.apache.poi.ss.usermodel.CreationHelper;
+import customize.org.apache.poi.ss.usermodel.Hyperlink;
+import customize.org.slf4j.Logger;
+import customize.org.slf4j.LoggerFactory;
 
 import com.alibaba.excel.metadata.CellData;
 import com.alibaba.excel.metadata.Head;

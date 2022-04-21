@@ -2,7 +2,7 @@ package com.alibaba.excel.write;
 
 import java.util.List;
 
-import org.apache.poi.ss.util.CellRangeAddress;
+import customize.org.apache.poi.ss.util.CellRangeAddress;
 
 import com.alibaba.excel.context.WriteContext;
 import com.alibaba.excel.context.WriteContextImpl;

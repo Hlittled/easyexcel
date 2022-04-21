@@ -2,8 +2,8 @@ package com.alibaba.excel.read.metadata.holder.xlsx;
 
 import javax.xml.parsers.SAXParserFactory;
 
-import org.apache.poi.openxml4j.opc.OPCPackage;
-import org.apache.poi.xssf.model.StylesTable;
+import customize.org.apache.poi.openxml4j.opc.OPCPackage;
+import customize.org.apache.poi.xssf.model.StylesTable;
 
 import com.alibaba.excel.read.metadata.ReadWorkbook;
 import com.alibaba.excel.read.metadata.holder.ReadWorkbookHolder;

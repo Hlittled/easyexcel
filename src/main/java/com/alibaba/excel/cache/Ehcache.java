@@ -4,14 +4,14 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.UUID;
 
-import org.ehcache.CacheManager;
-import org.ehcache.config.CacheConfiguration;
-import org.ehcache.config.builders.CacheConfigurationBuilder;
-import org.ehcache.config.builders.CacheManagerBuilder;
-import org.ehcache.config.builders.ResourcePoolsBuilder;
-import org.ehcache.config.units.MemoryUnit;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import customize.org.ehcache.CacheManager;
+import customize.org.ehcache.config.CacheConfiguration;
+import customize.org.ehcache.config.builders.CacheConfigurationBuilder;
+import customize.org.ehcache.config.builders.CacheManagerBuilder;
+import customize.org.ehcache.config.builders.ResourcePoolsBuilder;
+import customize.org.ehcache.config.units.MemoryUnit;
+import customize.org.slf4j.Logger;
+import customize.org.slf4j.LoggerFactory;
 
 import com.alibaba.excel.context.AnalysisContext;
 import com.alibaba.excel.util.CollectionUtils;
@@ -40,11 +40,11 @@ public class Ehcache implements ReadCache {
     /**
      * Bulk storage data
      */
-    private org.ehcache.Cache<Integer, HashMap> fileCache;
+    private customize.org.ehcache.Cache<Integer, HashMap> fileCache;
     /**
      * Currently active cache
      */
-    private org.ehcache.Cache<Integer, HashMap> activeCache;
+    private customize.org.ehcache.Cache<Integer, HashMap> activeCache;
     private String cacheAlias;
     /**
      * Count the number of cache misses

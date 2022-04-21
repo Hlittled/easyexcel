@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.poi.ss.usermodel.IndexedColors;
+import customize.org.apache.poi.ss.usermodel.IndexedColors;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

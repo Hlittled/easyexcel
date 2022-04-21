@@ -1,0 +1,14 @@
+rule org.apache.poi.** customize.org.apache.poi.@1
+rule org.apache.commons.collections4.** customize.org.apache.commons.collections4.@1
+rule org.apache.commons.codec.** customize.org.apache.commons.codec.@1
+
+rule com.graphbuilder.** customize.com.graphbuilder.@1
+
+rule org.ehcache.** customize.org.ehcache.@1
+rule org.terracotta.** customize.org.terracotta.@1
+
+rule net.sf.cglib.** customize.net.sf.cglib.@1
+
+rule org.objectweb.asm.** customize.org.objectweb.asm.@1
+
+rule org.slf4j.** customize.org.slf4j.@1

@@ -2,8 +2,8 @@ package com.alibaba.excel.analysis.v03.handlers;
 
 import java.util.Map;
 
-import org.apache.poi.hssf.record.LabelSSTRecord;
-import org.apache.poi.hssf.record.Record;
+import customize.org.apache.poi.hssf.record.LabelSSTRecord;
+import customize.org.apache.poi.hssf.record.Record;
 
 import com.alibaba.excel.analysis.v03.IgnorableXlsRecordHandler;
 import com.alibaba.excel.cache.ReadCache;

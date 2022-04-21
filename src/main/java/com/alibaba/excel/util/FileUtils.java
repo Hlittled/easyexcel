@@ -9,8 +9,8 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.UUID;
 
-import org.apache.poi.util.DefaultTempFileCreationStrategy;
-import org.apache.poi.util.TempFile;
+import customize.org.apache.poi.util.DefaultTempFileCreationStrategy;
+import customize.org.apache.poi.util.TempFile;
 
 import com.alibaba.excel.exception.ExcelAnalysisException;
 import com.alibaba.excel.exception.ExcelCommonException;

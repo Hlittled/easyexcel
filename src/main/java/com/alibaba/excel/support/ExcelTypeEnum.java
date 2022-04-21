@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 
-import org.apache.poi.poifs.filesystem.FileMagic;
+import customize.org.apache.poi.poifs.filesystem.FileMagic;
 
 import com.alibaba.excel.exception.ExcelAnalysisException;
 import com.alibaba.excel.exception.ExcelCommonException;

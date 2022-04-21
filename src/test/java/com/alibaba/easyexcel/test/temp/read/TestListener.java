@@ -12,12 +12,12 @@ import lombok.extern.slf4j.Slf4j;
  * @author JiaJu Zhuang
  * @date 2020/4/9 16:33
  **/
-@Slf4j
+////@Slf4j
 public class TestListener extends AnalysisEventListener {
 
     @Override
     public void invoke(Object o, AnalysisContext analysisContext) {
-        log.info("解析一条:{}", JSON.toJSONString(o));
+//        log.info("解析一条:{}", JSON.toJSONString(o));
     }
 
     @Override

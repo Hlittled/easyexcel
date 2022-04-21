@@ -12,7 +12,7 @@ import com.alibaba.excel.util.BooleanUtils;
 import com.alibaba.excel.util.PositionUtils;
 import com.alibaba.excel.util.StringUtils;
 
-import org.apache.poi.xssf.usermodel.XSSFCellStyle;
+import customize.org.apache.poi.xssf.usermodel.XSSFCellStyle;
 import org.xml.sax.Attributes;
 
 /**

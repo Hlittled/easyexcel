@@ -2,7 +2,7 @@ package com.alibaba.easyexcel.test.demo.write;
 
 import java.util.Date;
 
-import org.apache.poi.ss.usermodel.FillPatternType;
+import customize.org.apache.poi.ss.usermodel.FillPatternType;
 
 import com.alibaba.excel.annotation.ExcelProperty;
 import com.alibaba.excel.annotation.write.style.ContentFontStyle;

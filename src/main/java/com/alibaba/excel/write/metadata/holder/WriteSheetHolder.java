@@ -3,10 +3,10 @@ package com.alibaba.excel.write.metadata.holder;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.poi.hssf.usermodel.HSSFSheet;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.xssf.streaming.SXSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
+import customize.org.apache.poi.hssf.usermodel.HSSFSheet;
+import customize.org.apache.poi.ss.usermodel.Sheet;
+import customize.org.apache.poi.xssf.streaming.SXSSFSheet;
+import customize.org.apache.poi.xssf.usermodel.XSSFSheet;
 
 import com.alibaba.excel.enums.HolderEnum;
 import com.alibaba.excel.enums.WriteLastRowTypeEnum;

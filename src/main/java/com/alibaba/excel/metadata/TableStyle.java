@@ -1,6 +1,6 @@
 package com.alibaba.excel.metadata;
 
-import org.apache.poi.ss.usermodel.IndexedColors;
+import customize.org.apache.poi.ss.usermodel.IndexedColors;
 
 import com.alibaba.excel.write.style.HorizontalCellStyleStrategy;
 

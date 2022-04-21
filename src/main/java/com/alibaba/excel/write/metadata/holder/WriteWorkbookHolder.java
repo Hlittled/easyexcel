@@ -10,10 +10,10 @@ import java.io.OutputStream;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.streaming.SXSSFWorkbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import customize.org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import customize.org.apache.poi.ss.usermodel.Workbook;
+import customize.org.apache.poi.xssf.streaming.SXSSFWorkbook;
+import customize.org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import com.alibaba.excel.enums.HolderEnum;
 import com.alibaba.excel.exception.ExcelGenerateException;

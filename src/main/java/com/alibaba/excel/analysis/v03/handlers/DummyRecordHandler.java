@@ -2,9 +2,9 @@ package com.alibaba.excel.analysis.v03.handlers;
 
 import java.util.LinkedHashMap;
 
-import org.apache.poi.hssf.eventusermodel.dummyrecord.LastCellOfRowDummyRecord;
-import org.apache.poi.hssf.eventusermodel.dummyrecord.MissingCellDummyRecord;
-import org.apache.poi.hssf.record.Record;
+import customize.org.apache.poi.hssf.eventusermodel.dummyrecord.LastCellOfRowDummyRecord;
+import customize.org.apache.poi.hssf.eventusermodel.dummyrecord.MissingCellDummyRecord;
+import customize.org.apache.poi.hssf.record.Record;
 
 import com.alibaba.excel.analysis.v03.IgnorableXlsRecordHandler;
 import com.alibaba.excel.context.xls.XlsReadContext;

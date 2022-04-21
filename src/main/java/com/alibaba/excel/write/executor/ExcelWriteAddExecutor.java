@@ -8,8 +8,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
+import customize.org.apache.poi.ss.usermodel.Cell;
+import customize.org.apache.poi.ss.usermodel.Row;
 
 import com.alibaba.excel.context.WriteContext;
 import com.alibaba.excel.enums.HeadKindEnum;
@@ -26,7 +26,7 @@ import com.alibaba.excel.write.metadata.holder.WriteHolder;
 import com.alibaba.excel.write.metadata.holder.WriteSheetHolder;
 import com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder;
 
-import net.sf.cglib.beans.BeanMap;
+import customize.net.sf.cglib.beans.BeanMap;
 
 /**
  * Add the data into excel

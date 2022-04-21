@@ -1,9 +1,9 @@
 package com.alibaba.excel.analysis.v03.handlers;
 
-import org.apache.poi.hssf.record.CommonObjectDataSubRecord;
-import org.apache.poi.hssf.record.ObjRecord;
-import org.apache.poi.hssf.record.Record;
-import org.apache.poi.hssf.record.SubRecord;
+import customize.org.apache.poi.hssf.record.CommonObjectDataSubRecord;
+import customize.org.apache.poi.hssf.record.ObjRecord;
+import customize.org.apache.poi.hssf.record.Record;
+import customize.org.apache.poi.hssf.record.SubRecord;
 
 import com.alibaba.excel.analysis.v03.IgnorableXlsRecordHandler;
 import com.alibaba.excel.context.xls.XlsReadContext;

@@ -3,9 +3,9 @@ package com.alibaba.excel.write.style;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellStyle;
-import org.apache.poi.ss.usermodel.Workbook;
+import customize.org.apache.poi.ss.usermodel.Cell;
+import customize.org.apache.poi.ss.usermodel.CellStyle;
+import customize.org.apache.poi.ss.usermodel.Workbook;
 
 import com.alibaba.excel.metadata.Head;
 import com.alibaba.excel.util.StyleUtil;

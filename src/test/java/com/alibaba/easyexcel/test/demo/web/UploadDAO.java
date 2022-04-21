@@ -2,7 +2,7 @@ package com.alibaba.easyexcel.test.demo.web;
 
 import java.util.List;
 
-import org.springframework.stereotype.Repository;
+//import org.springframework.stereotype.Repository;
 
 import com.alibaba.easyexcel.test.demo.read.DemoData;
 
@@ -11,7 +11,7 @@ import com.alibaba.easyexcel.test.demo.read.DemoData;
  *
  * @author Jiaju Zhuang
  **/
-@Repository
+//@Repository
 public class UploadDAO {
 
     public void save(List<UploadData> list) {

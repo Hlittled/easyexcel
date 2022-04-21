@@ -9,13 +9,13 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * @author Jiaju Zhuang
  */
-@Slf4j
+//@Slf4j
 public class WriteHandler extends AbstractSheetWriteHandler {
 
     @Override
     public void afterSheetCreate(WriteWorkbookHolder writeWorkbookHolder,
         WriteSheetHolder writeSheetHolder) {
-        log.info("锁住");
+//        log.info("锁住");
         writeSheetHolder.getSheet().protectSheet("edit");
     }
 }

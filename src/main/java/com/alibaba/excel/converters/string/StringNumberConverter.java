@@ -2,7 +2,7 @@ package com.alibaba.excel.converters.string;
 
 import java.math.BigDecimal;
 
-import org.apache.poi.ss.usermodel.DateUtil;
+import customize.org.apache.poi.ss.usermodel.DateUtil;
 
 import com.alibaba.excel.converters.Converter;
 import com.alibaba.excel.enums.CellDataTypeEnum;

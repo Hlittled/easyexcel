@@ -13,13 +13,13 @@ import com.alibaba.excel.write.metadata.style.WriteFont;
 import com.alibaba.excel.write.style.HorizontalCellStyleStrategy;
 import com.alibaba.fastjson.JSON;
 
-import org.apache.poi.hssf.util.CellReference;
-import org.apache.poi.ss.usermodel.FillPatternType;
-import org.apache.poi.ss.usermodel.IndexedColors;
+import customize.org.apache.poi.hssf.util.CellReference;
+import customize.org.apache.poi.ss.usermodel.FillPatternType;
+import customize.org.apache.poi.ss.usermodel.IndexedColors;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import customize.org.slf4j.Logger;
+import customize.org.slf4j.LoggerFactory;
 
 /**
  * 临时测试

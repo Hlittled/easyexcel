@@ -3,13 +3,13 @@ package com.alibaba.excel.analysis;
 import java.io.InputStream;
 import java.util.List;
 
-import org.apache.poi.hssf.record.crypto.Biff8EncryptionKey;
-import org.apache.poi.poifs.crypt.Decryptor;
-import org.apache.poi.poifs.filesystem.DocumentFactoryHelper;
-import org.apache.poi.poifs.filesystem.POIFSFileSystem;
-import org.apache.poi.util.IOUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import customize.org.apache.poi.hssf.record.crypto.Biff8EncryptionKey;
+import customize.org.apache.poi.poifs.crypt.Decryptor;
+import customize.org.apache.poi.poifs.filesystem.DocumentFactoryHelper;
+import customize.org.apache.poi.poifs.filesystem.POIFSFileSystem;
+import customize.org.apache.poi.util.IOUtils;
+import customize.org.slf4j.Logger;
+import customize.org.slf4j.LoggerFactory;
 
 import com.alibaba.excel.analysis.v03.XlsSaxAnalyser;
 import com.alibaba.excel.analysis.v07.XlsxSaxAnalyser;

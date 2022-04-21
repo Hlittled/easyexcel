@@ -2,7 +2,7 @@ package com.alibaba.excel.write.style.column;
 
 import java.util.List;
 
-import org.apache.poi.ss.usermodel.Cell;
+import customize.org.apache.poi.ss.usermodel.Cell;
 
 import com.alibaba.excel.event.NotRepeatExecutor;
 import com.alibaba.excel.metadata.CellData;

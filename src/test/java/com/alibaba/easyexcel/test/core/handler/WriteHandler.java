@@ -2,8 +2,8 @@ package com.alibaba.easyexcel.test.core.handler;
 
 import java.util.List;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
+import customize.org.apache.poi.ss.usermodel.Cell;
+import customize.org.apache.poi.ss.usermodel.Row;
 import org.junit.Assert;
 
 import com.alibaba.excel.metadata.CellData;

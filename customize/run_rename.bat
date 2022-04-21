@@ -1,0 +1,10 @@
+java -jar jarjar-1.4.jar process rule.txt poi-3.17.jar .\customize\customize-poi-3.17.jar
+java -jar jarjar-1.4.jar process rule.txt poi-ooxml-3.17.jar .\customize\customize-poi-ooxml-3.17.jar
+java -jar jarjar-1.4.jar process rule.txt poi-ooxml-schemas-3.17.jar .\customize\customize-poi-ooxml-schemas-3.17.jar
+java -jar jarjar-1.4.jar process rule.txt ehcache-3.4.0.jar .\customize\customize-ehcache-3.4.0.jar
+java -jar jarjar-1.4.jar process rule.txt commons-codec-1.10.jar .\customize\customize-commons-codec-1.10.jar
+java -jar jarjar-1.4.jar process rule.txt commons-collections4-4.1.jar .\customize\customize-commons-collections4-4.1.jar
+java -jar jarjar-1.4.jar process rule.txt curvesapi-1.04.jar .\customize\customize-curvesapi-1.04.jar
+java -jar jarjar-1.4.jar process rule.txt cglib-3.1.jar .\customize\customize-cglib-3.1.jar
+java -jar jarjar-1.4.jar process rule.txt asm-4.2.jar .\customize\customize-asm-4.2.jar
+java -jar jarjar-1.4.jar process rule.txt slf4j-api-1.7.26.jar .\customize\customize-slf4j-api-1.7.26.jar

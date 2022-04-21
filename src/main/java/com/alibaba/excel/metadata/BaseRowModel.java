@@ -3,7 +3,7 @@ package com.alibaba.excel.metadata;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.poi.ss.usermodel.CellStyle;
+import customize.org.apache.poi.ss.usermodel.CellStyle;
 
 import com.alibaba.excel.annotation.ExcelIgnore;
 

@@ -1,6 +1,6 @@
 package com.alibaba.excel.write.handler;
 
-import org.apache.poi.ss.usermodel.Row;
+import customize.org.apache.poi.ss.usermodel.Row;
 
 import com.alibaba.excel.write.metadata.holder.WriteSheetHolder;
 import com.alibaba.excel.write.metadata.holder.WriteTableHolder;

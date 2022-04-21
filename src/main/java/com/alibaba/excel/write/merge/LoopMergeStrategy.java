@@ -1,7 +1,7 @@
 package com.alibaba.excel.write.merge;
 
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.util.CellRangeAddress;
+import customize.org.apache.poi.ss.usermodel.Row;
+import customize.org.apache.poi.ss.util.CellRangeAddress;
 
 import com.alibaba.excel.metadata.property.LoopMergeProperty;
 import com.alibaba.excel.write.handler.AbstractRowWriteHandler;
